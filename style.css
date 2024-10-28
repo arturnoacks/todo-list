@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 80px;
+    background-color: white;
+}
+
+input{
+    font-size: 16px;
+    padding: 5px;
+}
+
+p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.add {
+    margin: 10px auto;
+    padding: 10px;
+    width: 15%;
+    background: #f9f9f9;
+    border: 1px solid #dddddd;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.add:hover {
+    background-color: #f1f1f1;
+}
+
+.close {
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 10px auto;
+    padding: 10px;
+    list-style-type: none;
+    width: 30%;
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.listItem {
+    border-radius: 5px;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+.listItem:hover {
+    background-color: #f1f1f1;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #888888;
+}
+
